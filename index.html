@@ -4,18 +4,29 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>Valoeaera's Website | Home</title>
+        <link rel="stylesheet" href="../styles/styles.css" />
     </head>
     <body>
-        <nav id="navbar">
-            <ul>
-                <li>Home</li>
-                <li><a href="pages/ffxiv.html">FFXIV</a></li>
-                <li><a href="pages/furry-characters.html">Furry Characters</a></li>
-                <li><a href="pages/about.html">About Me</a></li>
-            </ul>
-        </nav>
-        <h1>Home</h1>
-        <p>Welcome to my little corner of the Internet! I created this site because I am super burnt out on programming from work and wanted to make something I enjoyed. My day job as a software developer pays the bills, but it doesn't provide me with a creative outlet for programming. It's very corporate drone!</p>
-        <p>The site doesn't have much on it right now, but I want this to be a place I can go make art and cute things and write about topics that bring me joy.</p>
+        <div class="main-container">
+            <h1 class="big-title">HOME</h1>
+            <div class="content-container">
+                <nav id="navbar" class="foreground-content side-bar">
+                    <ul>
+                        <li>Home</li>
+                        <li><a href="pages/ffxiv.html">FFXIV</a></li>
+                        <li><a href="pages/furry-characters.html">Furry Characters</a></li>
+                        <li><a href="pages/about.html">About Me</a></li>
+                    </ul>
+                </nav>
+                <div class="foreground-content content">
+                    <p>Welcome to my little corner of the Internet! I created this site because I am super burnt out on programming from work and wanted to make something I enjoyed. My day job as a software developer pays the bills, but it doesn't provide me with a creative outlet for programming. It's very corporate drone!</p>
+                    <p>The site doesn't have much on it right now, but I want this to be a place I can go make art and cute things and write about topics that bring me joy.</p>
+                </div>
+                <div class="foreground-content side-bar right-bar"></div>
+            </div>
+            <footer class="foreground-content">
+                <p class="centered">Site design inspired by <a href="https://seafare.neocities.org/">Seafare</a>.<br/>AeraArea &copy; Valerie 2024</p>
+            </footer>
+        </div>
     </body>
 </html>
